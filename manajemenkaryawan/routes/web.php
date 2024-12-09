@@ -15,3 +15,4 @@ use App\Http\Controllers\manajemenController;
 */
 //Tampil UI Master
 Route::get('/home', [manajemenController::class, 'tampilUi']);
+Route::get('/daguku', [manajemenController::class, 'tampilDaguku']);
